@@ -1,27 +1,45 @@
-# Xoapp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.1.
+# Tic-Tac-Toe-Angular
 
-## Development server
+This is a simple Angular application that uses the Angular  framework for server-side rendering using Angular Cli. It's a Tic-Tac-Toe game with a simple UI and some basic game logic.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<video controls src="Xoapp.mp4" title="Title"></video>
+## Getting Started
 
-## Code scaffolding
+To get started with the project, you'll need to have Node.js and npm installed on your machine. Once you have those, you can clone the repository and install the dependencies using the following commands:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```
+git clone https://github.com/your-username/xoapp.git
+cd xoapp
+npm install
+```
 
-## Build
+You can then start the development server using the following command:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```
+ng serve
+```
 
-## Running unit tests
+This will start the server and you can access the application at http://localhost:4200.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Building and Running the Application
 
-## Running end-to-end tests
+To build the application for production, you can use the following command:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```
+ng build
+```
 
-## Further help
+This will create a `dist` directory containing the compiled application. You can then run the application using the following command:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+```
+npm run serve:ssr:xoapp
+```
+
+This will start the server and you can access the application at http://localhost:4200.
+
+## Technologies Used
+
+The application is built using Angular, with Angular Universal for server-side rendering. It also uses the Taiga UI library for the UI components and scss.
+
+
