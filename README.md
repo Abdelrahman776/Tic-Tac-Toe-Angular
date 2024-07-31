@@ -2,7 +2,7 @@
 # Tic-Tac-Toe-Angular
 
 This is a simple Angular application that uses the Angular  framework for server-side rendering using Angular Cli. It's a Tic-Tac-Toe game with a simple UI and some basic game logic.
-
+ 
 <video controls src="Xoapp.mp4" title="Title"></video>
 ## Getting Started
 
