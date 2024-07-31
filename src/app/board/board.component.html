@@ -1,0 +1,25 @@
+
+<h1> Current Player : {{player}} </h1>
+
+<div class="ff">
+
+  <button  appearance="primary"
+      tuiButton
+      type="button"
+      class="tui-space_right-3 tui-space_bottom-3" class="start"(click)="startgame()">Start New Game</button>
+  
+  <h2 *ngIf="winner">Player {{winner}} Won the game</h2>
+</div>
+
+<main>
+
+<app-square *ngFor="let val of squares; let i =index"
+
+[value]="val"
+(click)="makemove(i)"
+>
+
+
+</app-square>
+
+</main>
