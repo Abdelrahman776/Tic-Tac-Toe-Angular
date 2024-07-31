@@ -3,7 +3,7 @@
 
 This is a simple Angular application that uses the Angular  framework for server-side rendering using Angular Cli. It's a Tic-Tac-Toe game with a simple UI and some basic game logic.
  
-<video controls src="Xoapp.mp4" title="Title"></video>
+![alt text](Xoapp.gif)
 ## Getting Started
 
 To get started with the project, you'll need to have Node.js and npm installed on your machine. Once you have those, you can clone the repository and install the dependencies using the following commands:
