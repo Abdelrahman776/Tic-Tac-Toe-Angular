@@ -1,9 +1,12 @@
 
-# Tic-Tac-Toe-Angular
+# Tic-Tac-Toe-Angular-pwa
 
 This is a simple Angular application that uses the Angular  framework for server-side rendering using Angular Cli. It's a Tic-Tac-Toe game with a simple UI and some basic game logic.
- 
 ![alt text](Xoapp.gif)
+## The game can be installed on any platform a PWA. try to download it from your browser on desktop.
+ ![alt text](image.png)
+ ![alt text](image-2.png)
+ ![alt text](image-1.png)
 ## Getting Started
 
 To get started with the project, you'll need to have Node.js and npm installed on your machine. Once you have those, you can clone the repository and install the dependencies using the following commands:
