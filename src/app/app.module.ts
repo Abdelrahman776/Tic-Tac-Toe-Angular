@@ -1,4 +1,3 @@
-import { NgDompurifySanitizer } from "@tinkoff/ng-dompurify";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { NgModule, isDevMode } from '@angular/core';
 import { BrowserModule, provideClientHydration } from '@angular/platform-browser';
